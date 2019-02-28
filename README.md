@@ -19,4 +19,4 @@ python training.py
 ![](data/predictions.jpg)
 ## Reference
 * [darknet](https://github.com/pjreddie/darknet)
-* [PyTorch-YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3): Thanks for Evaluate and YOLO loss code
+* [PyTorch-YOLOv3](https://github.com/marvis/pytorch-yolo3): Thanks for YOLO loss code
