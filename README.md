@@ -15,7 +15,8 @@ Modify config/config.py as your configuration.
 ```
 python training.py
 ```
-
+##### Results
+![](data/predictions.jpg)
 ## Reference
 * [darknet](https://github.com/pjreddie/darknet)
 * [PyTorch-YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3): Thanks for Evaluate and YOLO loss code
