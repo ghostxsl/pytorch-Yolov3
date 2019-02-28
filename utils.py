@@ -12,15 +12,6 @@ import itertools
 import struct  # get_image_size
 import imghdr  # get_image_size
 
-def sigmoid(x):
-    return 1.0 / (math.exp(-x) + 1.)
-
-
-def softmax(x):
-    x = torch.exp(x - torch.max(x))
-    x = x / x.sum()
-    return x
-
 
 def bbox_iou(box1, box2, x1y1x2y2=True):
     if x1y1x2y2:
